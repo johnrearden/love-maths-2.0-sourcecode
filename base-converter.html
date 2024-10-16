@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Base Converter</title>
+  </head>
+  <body>
+    <h1>Base Converter!</h1>
+    <form action="#">
+      <!-- Decimal -->
+      <div>
+        <label for="decimal">Decimal</label>
+        <input
+          type="text"
+          id="decimal"
+          name="decimal"
+          class="base-input"
+          data-base="10"
+        />
+      </div>
+
+      <!-- Hexadecimal -->
+      <div>
+        <label for="hexadecimal">Hexadecimal</label>
+        <input
+          type="text"
+          id="hexadecimal"
+          name="hexadecimal"
+          class="base-input"
+          data-base="16"
+        />
+      </div>
+
+      <!-- Octal -->
+      <div>
+        <label for="octal">Octal</label>
+        <input
+          type="text"
+          id="octal"
+          name="octal"
+          class="base-input"
+          data-base="8"
+        />
+      </div>
+
+      <!-- Binary -->
+      <div>
+        <label for="binary">Binary</label>
+        <input
+          type="text"
+          id="binary"
+          name="binary"
+          class="base-input"
+          data-base="2"
+        />
+      </div>
+
+      <!-- Tetradecimal -->
+      <div>
+        <label for="tetradecimal">Tetradecimal</label>
+        <input
+          type="text"
+          id="tetradecimal"
+          name="tetradecimal"
+          class="base-input"
+          data-base="14"
+        />
+      </div>
+
+      <!-- Custom -->
+      <!-- <div>
+        <label for="custom">Custom</label>
+        <input type="text" id="custom" name="custom" class="base-input" data-base="8"/>
+      </div> -->
+    </form>
+
+    <script src="base-converter.js"></script>
+  </body>
+</html>
