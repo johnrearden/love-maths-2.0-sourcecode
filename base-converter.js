@@ -1,12 +1,11 @@
-const VALID_CHARS = "0123456789abcdefghijklmnopqrstuvwxyz".split("");
+const VALID_CHARS = "0123456789abcdefghijklmnopqrstuvwxyz";
 
 document.addEventListener("DOMContentLoaded", () => {
 
     const inputs = document.getElementsByClassName('base-input');
+
     for (let input of inputs) {
         input.addEventListener('input', (e) => {
-
-            if (e.target.value === "") return;
 
             const base = parseInt(e.target.getAttribute('data-base'));
             const validChars = VALID_CHARS.slice(0, base);
