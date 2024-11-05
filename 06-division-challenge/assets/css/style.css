@@ -177,7 +177,7 @@ body {
 
 /* --------- Media queries */
 
-@media (max-width: 414px) {
+@media (max-width: 944px) {
     .controls-area {
         width: 100%;
     }
@@ -197,7 +197,7 @@ body {
     }
 
     .question-area {
-        padding: 10% 0;
+        padding: 1rem 0;
         width: 100%;
     }
 
